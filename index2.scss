@@ -1,0 +1,145 @@
+@import "./variable.scss";
+$sm: 568px;
+$md: 768px;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    background: url("/asset/watch\ sermons.png");
+    height: 267px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    .navbar{
+        background: rgba(13, 26, 36, 0.37);
+        height: 86px;
+        width: 100%;
+        .nav-brand{
+            margin-left: 101px;
+            margin-top: 21px;
+            h5{
+                top: 21px;
+
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+        }
+
+        .nav{
+            color: rgba(255, 255, 255, 0.7);
+            height: 28px;
+            // width: 108px;
+            left: 633px;
+            top: 27px;
+
+           
+
+            li{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 28px;
+                list-style-type: none;
+                letter-spacing: 0.085em;
+
+                margin-right: 2rem;
+
+                .join{
+                    color: rgba(246, 104, 0, 1);
+                    
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+
+section{
+    background: #333333;
+    width: 1456x;
+    height: 100vh;
+    padding: 0 175px;
+
+    .video{
+        margin-top: 71px;
+        margin-left: 113px;
+        margin-right: 102px;
+        margin-bottom: 103px;
+    }
+}
+
+.watch{
+    display: flex;
+    // margin-top: 4rem;
+    margin: 40px 175px;
+
+
+    .video{
+        border-radius: 15px;
+        width: 392px;
+        height: 322px;
+        margin-right: 4rem;
+    }
+
+    .downarrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-right: 45px;
+    }
+    
+}
+
+footer{
+    background: rgba(12, 10, 27, 0.79);
+    height: 421px;
+
+    .btn{
+        width: 200px;
+        height: 40px;
+        border: 1px solid white;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header{
+
+        background-color: red;
+        display: flex;
+        align-items: center;
+
+        .nav-brand{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0;
+            margin: 0 0;
+
+            h5{
+                font-size: 10px;
+            }
+            
+            // margin: 0 0;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+        }
+    }
+
+}
+    
+
